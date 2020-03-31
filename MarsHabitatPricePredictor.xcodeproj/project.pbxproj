@@ -36,9 +36,9 @@
 		14A8A1511EB15BF900263F76 /* GreenhousesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenhousesDataSource.swift; sourceTree = "<group>"; };
 		14A8A1531EB15C0E00263F76 /* SizeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeDataSource.swift; sourceTree = "<group>"; };
 		14F3A3BC1EB2C5ED004FA86D /* ViewController+PickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+PickerViewDelegate.swift"; sourceTree = "<group>"; };
+		5945C6C0636E22402B9E0247 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
 		5E3FB1771EC63BCF0083E7A8 /* MarsHabitatPricer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MarsHabitatPricer.mlmodel; sourceTree = "<group>"; };
-		F8C3E880F8C3E6F000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		F8D773F0F8D4A75000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		EF46A82B802B231A81B5DC3A /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 				140447D11EB3C4460091B24A /* README.md */,
 				1405CF361EB15517009DDFA4 /* MarsHabitatPricePredictor */,
 				1405CF351EB15517009DDFA4 /* Products */,
-				F8C3EB20F8C3EC2000000001 /* Configuration */,
-				F8D52180F8D7B99000000001 /* LICENSE */,
+				81283F62AC624A9F33D7FA3A /* Configuration */,
+				AADC624FA515CF939B53A238 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,18 +107,18 @@
 			path = "Data Sources";
 			sourceTree = "<group>";
 		};
-		F8C3EB20F8C3EC2000000001 /* Configuration */ = {
+		81283F62AC624A9F33D7FA3A /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				F8C3E880F8C3E6F000000001 /* SampleCode.xcconfig */,
+				EF46A82B802B231A81B5DC3A /* SampleCode.xcconfig */,
 			);
 			name = Configuration;
 			sourceTree = "<group>";
 		};
-		F8D52180F8D7B99000000001 /* LICENSE */ = {
+		AADC624FA515CF939B53A238 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
-				F8D773F0F8D4A75000000001 /* LICENSE.txt */,
+				5945C6C0636E22402B9E0247 /* LICENSE.txt */,
 			);
 			name = LICENSE;
 			path = LICENSE;
@@ -134,7 +134,6 @@
 				1405CF301EB15517009DDFA4 /* Sources */,
 				1405CF311EB15517009DDFA4 /* Frameworks */,
 				1405CF321EB15517009DDFA4 /* Resources */,
-				1499B5451EB1564F00863A31,
 			);
 			buildRules = (
 			);
@@ -157,7 +156,7 @@
 				TargetAttributes = {
 					1405CF331EB15517009DDFA4 = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1140;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -236,7 +235,7 @@
 /* Begin XCBuildConfiguration section */
 		1405CF441EB15517009DDFA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8C3E880F8C3E6F000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = EF46A82B802B231A81B5DC3A /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -297,7 +296,7 @@
 		};
 		1405CF451EB15517009DDFA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8C3E880F8C3E6F000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = EF46A82B802B231A81B5DC3A /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -351,7 +350,7 @@
 		};
 		1405CF471EB15517009DDFA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8C3E880F8C3E6F000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = EF46A82B802B231A81B5DC3A /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -364,14 +363,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MarsHabitatPricePredictor${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1405CF481EB15517009DDFA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8C3E880F8C3E6F000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = EF46A82B802B231A81B5DC3A /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -384,7 +383,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MarsHabitatPricePredictor${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
