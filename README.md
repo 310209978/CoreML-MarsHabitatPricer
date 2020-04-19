@@ -84,3 +84,6 @@ into a resource that’s been optimized to run on a device.
 This optimized representation of the model is included in your app bundle
 and is what’s used to make predictions while the app is running on a device. 
 
+
+## Reference
+https://developer.apple.com/documentation/coreml/integrating_a_core_ml_model_into_your_app
