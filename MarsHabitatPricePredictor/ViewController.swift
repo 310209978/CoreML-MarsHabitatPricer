@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     let priceFormatter: NumberFormatter = {
         let formatter = NumberFormatter()
         formatter.numberStyle = .currency
+        ///The maximum number of digits after the decimal separator
         formatter.maximumFractionDigits = 0
         formatter.usesGroupingSeparator = true
         formatter.locale = Locale(identifier: "en_US")
